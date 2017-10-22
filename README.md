@@ -17,7 +17,7 @@ Aprender a realizar un menú vertical,utilizando la información brindada en cla
 
 **Aprenderemos a usar mas selectores como :**
 
-    **- a:hover** //este selector de etiqueta configura lo que se ve al tener el programa contacto con el cursor.
+    **-a:hover** //este selector de etiqueta configura lo que se ve al tener el programa contacto con el cursor.
 
     **-a:active** //este selector de etiqueta configura lo que se ve al hacer click en alguna parte del  programa .
 
