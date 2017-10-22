@@ -37,23 +37,27 @@ a:hover {
   /*indicamos el color de fondo a usar*/
   background: #e0e0d1;
 }
+a:active {
+  background: #333;
+  color: #fff;
+}
 /*indicamos que queremos configurar el estilo a el primer hijo de la lista desordenada*/
 ul li:first-child {
   /*indicamos el color de fondo a usar*/
   background: #f9a91a;
 }
-/*indicamos que queremos configurar el estilo a el link de el primer hijo de la lista desordenada*/
+/*indicamos que queremos configurar el estilo a el primer hijo de la lista desordenada*/
 ul li:first-child a{
+  /*indicamos el color de letra a usar*/
+  color : #fff;
+}
+/*indicamos que queremos configurar el estilo a el primer hijo de la lista desordenada cuando interactue con el cursor*/
+ul li:first-child a:hover{
+  /*indicamos el color de letra a usar*/
 color: #fff;
 }
-/*este selector de etiqueta indicamos que queremos configurarle el estilo a el primer hijo de la lista desordenada y configuramos lo que se mostrará cuando entre en contacto con el cursor*/
-ul li:first-child :hover{
-color: #000;
-}
-/*este selector de etiqueta configura lo que se ve al hacer click en alguna parte del  programa*/
-ul li a:active {
-  /*indicamos el color de fondo a usar*/
-  background: #333;
+/*este selector de etiqueta configura lo que se ve al hacer click en el primer elemento de la lista desordenada*/
+ul li:first-child a:active{
   /*indicamos el color de letra a usar*/
-  color: #fff;
+color: #fff;
 }
