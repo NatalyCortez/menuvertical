@@ -1,45 +1,59 @@
-/*
-#f9a91a
-#f5f5f0
-#e0e0d1
-#333
-#font-family sans serif*/
+/*usamos el selector por etiqueta "body"*/
 body {
+  /*definimos el tipo de fuente que usaremos*/
   font-family: sans-serif;
 }
+/*seleccionamos nuestra lista desoredenada con "ul".*/
 ul {
+  /*indicamos que no utilizaremos viñetas.*/
   list-style: none;
+  /*indicamos que no usaremos margin para la lista.*/
   margin: 0;
+  /*indicamos que no habrá relleno entre cada elemento de la lista*/
   padding: 0;
+  /*configuramos el ancho*/
   width: 200px;
-  /*agreagamos espaciado etre elementos de lista*/
+  /*agreagamos espaciado entre elementos de lista*/
   line-height: 24px;
-
 }
+  /*seleccionamos los elementos dentro de las etiquetas "li"*/
 li {
-
+/*indicamos el color de fondo para los elementos*/
   background: #f5f5f0;
 }
-
+/*seleeccionamos los elementos que tengan etiqueta "a"*/
 a {
+  /*configuramos el display para agregarle mas propiedades*/
   display: block;
+  /*indicamos que no queremos usar el subrayado por defecto */
   text-decoration: none;
+  /*indicamos que color queremos que tengan las letras*/
   color: #000;
+  /*indicamos que queremos que esten los elementos un poco mas a la derecha*/
   padding-left: 10px;
 }
+/*este selector de etiqueta configura lo que se ve al tener el programa contacto con el cursor.*/
 a:hover {
+  /*indicamos el color de fondo a usar*/
   background: #e0e0d1;
 }
+/*indicamos que queremos configurar el estilo a el primer hijo de la lista desordenada*/
 ul li:first-child {
+  /*indicamos el color de fondo a usar*/
   background: #f9a91a;
 }
+/*indicamos que queremos configurar el estilo a el link de el primer hijo de la lista desordenada*/
 ul li:first-child a{
 color: #fff;
 }
+/*este selector de etiqueta indicamos que queremos configurarle el estilo a el primer hijo de la lista desordenada y configuramos lo que se mostrará cuando entre en contacto con el cursor*/
 ul li:first-child :hover{
 color: #000;
 }
+/*este selector de etiqueta configura lo que se ve al hacer click en alguna parte del  programa*/
 ul li a:active {
+  /*indicamos el color de fondo a usar*/
   background: #333;
+  /*indicamos el color de letra a usar*/
   color: #fff;
 }
